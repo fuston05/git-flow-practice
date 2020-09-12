@@ -9,6 +9,17 @@ Learning to use git flow for better team collaboration
   - Hot-fixes/
   - Documentation/
 
+  #### Usage
+    - If you're working on a feature, use the 'Feature' prefix, and merge to 'Development' branch
+
+    - Development branch is merged into 'Master' once it's been tested and is ready for production
+
+    - Name branches with the above prefixes
+    
+    - After PR is approved and merged, DELETE the branch
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
