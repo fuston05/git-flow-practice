@@ -3,6 +3,8 @@ Learning to use git flow for better team collaboration
 
 
 ## Branches
+  *Protected master, and Development branches from being able to be deleted*
+
   - Master
   - Development/
   - Feature/
@@ -10,9 +12,14 @@ Learning to use git flow for better team collaboration
   - Documentation/
 
   #### Usage
+  
+    - 'Development' branch is the primary working branch for devs until everything is tested and ready for production
+
     - If you're working on a feature, use the 'Feature' prefix, and merge to 'Development' branch
 
     - Development branch is merged into 'Master' once it's been tested and is ready for production
+
+    - When doing a PR on 'Development' branch, DO NOT DELETE 'DEVELOPMENT' BRANCH
 
     - Name branches with the above prefixes
     
