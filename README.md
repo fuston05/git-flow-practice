@@ -14,6 +14,8 @@ Learning to use git flow for better team collaboration
 
     - Development branch is merged into 'Master' once it's been tested and is ready for production
 
+    - When doing a PR on 'Development' branch, DO NOT DELETE 'DEVELOPMENT' BRANCH
+
     - Name branches with the above prefixes
     
     - After PR is approved and merged, DELETE the branch
